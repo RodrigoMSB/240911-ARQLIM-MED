@@ -1,0 +1,26 @@
+Estimado alumno:
+
+Para ejecutar todos los códigos de este curso debes instalar Python.
+
+Para ello dirígete a la siguiente url: https://www.python.org/downloads/
+
+Selecciona su SO y tu plataforma de hardware.
+
+Si no tienes ningún IDE (entorno de desarrollo integrado) puedes bajar VSC 
+desde la siguiente url: https://code.visualstudio.com/
+
+Selecciona su SO y tu plataforma de hardware.
+
+Estando en VSC, baja la extensión Code Runner. Configúrala según lo explicado en el 
+documento SetUp_Guide ARQLIM Arquitectura Limpia.
+
+Hacemos acá un resumen de esto último. Instalas la extensión señalada, luego vas a la 
+configuración de la extensión. Luego te diriges a Editar en setting.json. Estando en este 
+lugar, colocas donde dice Python lo siguiente: "python": "python3 -u". De esta manera al 
+ejecutar cualquier código con el botón derecho del mouse y la opción Run Code, la aplicación 
+se ejecutará con tu instalación de Python, con la versión 3. Si tienes dudas ve al documento 
+más arriba sugerido.
+
+Para algunos ejercicios tendrás que instalar librerías adicionales. Los ejercicios que lo 
+necesitan, tienen su propio archivo léeme.txt. Sigue las instrucciones y los códigos podrán 
+ejecutarse correctamente.

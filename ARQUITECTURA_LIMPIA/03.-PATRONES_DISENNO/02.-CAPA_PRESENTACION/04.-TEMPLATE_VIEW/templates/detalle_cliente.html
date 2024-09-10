@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalle del Cliente{% endblock %}
+
+{% block header %}Detalle del Cliente{% endblock %}
+
+{% block content %}
+<p>ID: {{ cliente.id_cliente }}</p>
+<p>Nombre: {{ cliente.nombre }}</p>
+<p>Email: {{ cliente.email }}</p>
+<p>Teléfono: {{ cliente.telefono }}</p>
+<a href="{{ url_for('lista_clientes') }}">Volver a la lista de clientes</a>
+{% endblock %}

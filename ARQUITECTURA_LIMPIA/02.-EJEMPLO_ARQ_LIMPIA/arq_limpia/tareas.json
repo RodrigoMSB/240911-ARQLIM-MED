@@ -1,0 +1,14 @@
+[
+    {
+        "id_tarea": 1,
+        "titulo": "Hacer clase",
+        "descripcion": "Clases",
+        "completada": true
+    },
+    {
+        "id_tarea": 2,
+        "titulo": "Tomar remedios",
+        "descripcion": "Curarme",
+        "completada": false
+    }
+]
