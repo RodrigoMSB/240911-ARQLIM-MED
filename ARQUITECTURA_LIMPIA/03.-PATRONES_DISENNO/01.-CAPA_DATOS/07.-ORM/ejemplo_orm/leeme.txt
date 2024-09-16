@@ -1,0 +1,56 @@
+
+
+PASOS PARA EJECUTAR EL EJERCICIO EJEMPLO_ORM
+
+Verifica tu versión de Python. Debemos asegurarnos tener una 
+versión 3.8 o superior para ejecutar este ejemplo.
+
+En MAC
+
+python3 –version
+
+En Windows
+
+python --version
+
+
+1.- CREAR EL ENTORNO VIRTUAL
+
+Para asegurarnos de realizar las instalaciones que necesitamos y 
+no impactar en ningún otro proyecto en que estemos trabajando 
+(en Python) crearemos un entorno virtual de Python aislado. 
+
+python3 -m venv venv
+
+2.- PARA ACTIVAR EL ENTORNO HACEMOS:
+
+En MAC
+
+source venv/bin/activate
+
+En Windows:
+
+venv\Scripts\activate
+
+
+3.- INSTALAR LAS DEPENDENCIAS NECESARIAS
+
+pip install Flask-SQLAlchemy
+
+
+ 
+4.- EJECUTAR LA APLICACIÓN
+
+python app.py
+
+
+Esto debería iniciar el servidor local de Flask (si el proyecto usa Flask), y te dará una URL para acceder a la aplicación, algo como:
+
+
+* Running on http://127.0.0.1:5000/
+
+
+
+5.- DESACTIVAR EL ENTORNO VIRTUAL
+
+deactivate

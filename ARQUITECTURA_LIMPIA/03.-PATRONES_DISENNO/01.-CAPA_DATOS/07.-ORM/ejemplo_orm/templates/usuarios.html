@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h2>Lista de Usuarios</h2>
+<ul>
+    {% for usuario in usuarios %}
+    <li>{{ usuario.nombre }}</li>
+    {% else %}
+    <li>No hay usuarios aún.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -10,5 +10,11 @@
         "titulo": "Tomar remedios",
         "descripcion": "Curarme",
         "completada": false
+    },
+    {
+        "id_tarea": 3,
+        "titulo": "Aprender arquitectura limpia",
+        "descripcion": "Eso, arquitectura limpia",
+        "completada": true
     }
 ]
